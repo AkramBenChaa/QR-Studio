@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+    background-color: #101827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #172033;
+}
+
+/* WebSide Name: */
+.page {
+    background-color: white;
+    width: 400px;
+    height: 520px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.name_area {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+/* Inpute Area: */
+.input_area {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #151e33;
+    font-size: 18px;
+    outline: none;
+}
+
+input:focus {
+    border-color: rgb(38, 110, 227);
+    box-shadow: 0 0 5px rgba(38, 110, 227, 0.3);
+}
+
+/* QR Code Area: */
+.qr_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px auto;
+    width: 220px;
+    height: 220px;
+
+    border: 2px solid black;
+
+    font-size: 40px;
+}
+
+/* Generate Button Area: */
+.gen {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(38, 110, 227);
+
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(23, 91, 199);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(38, 110, 227, 0.15), 0 12px 25px rgba(38, 110, 227, 0.25);
+}
+
+button:active {
+    transform: translateY(0px);
+    box-shadow: 0 3px 8px rgba(38, 110, 227, 0.2);
+}
+
+/* Footer:  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+hr {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #151e33;
+    margin: 10px 0;
+}
